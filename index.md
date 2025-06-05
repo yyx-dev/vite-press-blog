@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: 同异步日志系统
-      link: /Project/4-同异步日志系统
+      link: /docs/Project/4-同异步日志系统
     - theme: alt
       text: 网络云备份
-      link: /Project/5-网络云备份
+      link: /docs/Project/5-网络云备份
 
 # features:
 #   - title:

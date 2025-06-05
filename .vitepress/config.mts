@@ -3,8 +3,7 @@ import { menuItems } from '../util/menu'
 
 export default defineConfig({
 
-  base: '/docs',
-  outDir: '../dist',
+  base: '/',
 
   head: [[ "link", { rel: "icon", href: "/docs.png" }]],
 
