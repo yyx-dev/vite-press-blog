@@ -16,7 +16,7 @@ export default defineConfig({
     outline: [2,3],
 
     nav: [
-      { text: '首页', link: '/docs' },
+      { text: '首页', link: '/' },
       ...menuItems.map(item => ({
         text: item.text,
         items: item.items || []
