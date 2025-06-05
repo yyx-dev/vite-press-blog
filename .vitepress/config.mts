@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 import { menuItems } from '../util/menu'
 
 export default defineConfig({
-  base: '/docs/',
+  base: '/vite-press-blog/',
   head: [[ "link", { rel: "icon", href: "/docs.png" }]],
 
   title: "杨宇曦的博客",
