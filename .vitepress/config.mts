@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
-// import { menuItems } from '../util/menu'
+import { menuItems } from '../util/menu'
 
 export default defineConfig({
-  base: '/docs/',
+  base: '/docs',
   head: [[ "link", { rel: "icon", href: "/docs.png" }]],
 
   title: "杨宇曦的博客",
@@ -14,16 +14,14 @@ export default defineConfig({
     outline: [2,3],
 
     nav: [
-      { text: '首页', link: '/' },
-      { text: 'C语言', link: '/C/' },  // 确保路径大小写和实际目录一致
-      { text: 'C++', link: '/C++/' },
-      // ...menuItems.map(item => ({
-      //   text: item.text,
-      //   items: item.items || []
-      // }))
+      { text: '首页', link: '/docs' },
+      ...menuItems.map(item => ({
+        text: item.text,
+        items: item.items || []
+      }))
     ],
 
-    // sidebar: menuItems,
+    sidebar: menuItems,
 
     socialLinks: [
       { icon: 'gitee', link: 'https://gitee.com/yyx_dev' },
