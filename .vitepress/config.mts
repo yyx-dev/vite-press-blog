@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 import { menuItems } from '../util/menu'
 
 export default defineConfig({
-  base: '/',
+  base: '/docs/',
   head: [[ "link", { rel: "icon", href: "/docs.png" }]],
 
   title: "杨宇曦的博客",
@@ -12,10 +12,9 @@ export default defineConfig({
 
     outlineTitle: '目录大纲',
     outline: [2,3],
-    // logo: '/docs.png',
 
     nav: [
-      { text: '首页', link: '/' },
+      { text: '首页', link: '/docs' },
       ...menuItems.map(item => ({
         text: item.text,
         items: item.items || []
