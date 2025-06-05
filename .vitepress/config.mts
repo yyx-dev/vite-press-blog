@@ -15,10 +15,10 @@ export default defineConfig({
 
     nav: [
       { text: '首页', link: '/docs' },
-      ...menuItems.map(item => ({
-        text: item.text,
-        items: item.items || []
-      }))
+      // ...menuItems.map(item => ({
+      //   text: item.text,
+      //   items: item.items || []
+      // }))
     ],
 
     sidebar: menuItems,
