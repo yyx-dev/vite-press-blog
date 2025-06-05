@@ -7,7 +7,7 @@ hero:
   text: "软件开发的学习记录"
   tagline: 记录技术学习过程
   image:
-    src: /background.svg
+    src: /public/background.svg
     alt: 背景图
   actions:
     - theme: brand
