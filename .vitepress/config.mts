@@ -14,7 +14,9 @@ export default defineConfig({
     outline: [2,3],
 
     nav: [
-      { text: '首页', link: '/docs' },
+      { text: '首页', link: '/docs/' },
+      { text: 'C语言', link: '/C/' },  // 确保路径大小写和实际目录一致
+      { text: 'C++', link: '/C++/' },
       // ...menuItems.map(item => ({
       //   text: item.text,
       //   items: item.items || []
